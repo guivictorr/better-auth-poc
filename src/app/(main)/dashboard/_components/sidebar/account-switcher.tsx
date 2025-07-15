@@ -22,7 +22,7 @@ export function AccountSwitcher({
     readonly id: string;
     readonly name: string;
     readonly email: string;
-    readonly avatar: string;
+    readonly avatar?: string;
     readonly role: string;
   }>;
 }) {

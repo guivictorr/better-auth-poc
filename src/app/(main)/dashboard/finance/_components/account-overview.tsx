@@ -1,5 +1,3 @@
-"use client";
-
 import { Plus } from "lucide-react";
 import { siApple, siPaypal, siOpenai, siVercel, siFigma } from "simple-icons";
 
@@ -64,7 +62,7 @@ const recentPayments = [
   },
 ];
 
-export function AccountOverview() {
+export async function AccountOverview() {
   return (
     <Card className="shadow-xs">
       <CardHeader className="items-center">
@@ -93,7 +91,7 @@ export function AccountOverview() {
                 <div className="absolute top-1/2 w-full -translate-y-1/2">
                   <div className="flex items-end justify-between px-6">
                     <span className="text-accent font-mono text-lg leading-none font-medium tracking-wide uppercase">
-                      Arham Khan
+                      Jorge
                     </span>
                     <ChipSVG />
                   </div>
